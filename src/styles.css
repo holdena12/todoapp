@@ -1,0 +1,42 @@
+
+
+:root {
+  --button-color: #36213E
+}
+
+.hidden {
+  display:none;
+
+}
+* {
+  font-size: 16px;
+}
+
+body{
+
+  background-color: #554971;
+
+}
+.button {
+  background-color: var(--button-color);
+  border-radius: 20%;
+  border-color: #63768D;
+  border-style: solid;
+
+  color: #63768D;
+  
+}
+.text{
+  background-color: #8AC6D0;
+}
+.output{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 12px;
+  background-color: var(--button-color);
+  color: #B8F3FF;
+
+}
+.check {
+  transform: scale(1.6);
+}
